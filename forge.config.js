@@ -10,6 +10,19 @@ module.exports = {
       }
     }
   },
+  publishers: [
+    {
+      name: '@electron-forge/publisher-github',
+      config: {
+        repository: {
+          owner: 'TyskeRobert',
+          name: 'my-2nd-electron-app'
+        },
+        prerelease: false,
+        draft: true
+      }
+    }
+  ],
   rebuildConfig: {},
   makers: [
     {
