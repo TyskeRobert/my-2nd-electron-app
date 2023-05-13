@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+        <meta 
+            http-equiv="Content-Security-Policy" 
+            content="default-src 'self'; script-src 'self'"/>
+        <meta 
+            http-equiv="X-Content-Security-Policy" 
+            content="default-src 'self'; script-src 'self'"/>
+        <title>Hello from Electron renderer!</title>
+    </head>
+    <body>
+        <h1>Hello from Electron renderer!</h1>
+        <p>&#128406;</p>
+        <p id="info"></p>
+        <p id="user"></p>
+        <p>
+            <button type="button" id="button">What's the time?</button>
+        </p>
+        <p id="result"></p>
+    </body>
+    <script src="./renderer.js"></script>
+</html>
