@@ -1,16 +1,17 @@
 {
   "name": "my-2nd-electron-app",
   "version": "1.0.0",
-  "description": "Hallo Welt!",
+  "description": "My second Electron App",
   "main": "main.js",
   "scripts": {
     "start": "electron-forge start",
     "test": "echo \"Error: no test specified\" && exit 1",
     "package": "electron-forge package",
-    "make": "electron-forge make"
+    "make": "electron-forge make",
+    "publish": "electron-forge publish"
   },
   "author": "Robert K. Paulsen",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@electron-forge/cli": "^6.1.1",
     "@electron-forge/maker-deb": "^6.1.1",
